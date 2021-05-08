@@ -98,7 +98,7 @@ function keyPressed()
         slingshot.attach(pball.body);
         ash_hits=ash_hits+1;
     }
-    else{
+     else if(keyCode==32  && ash_hits>=5){
         
       gameState="end";
        
